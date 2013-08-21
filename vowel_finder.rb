@@ -1,6 +1,10 @@
+def prompt(msg)
+  puts msg
+  word = gets.chomp
+end
+
 # get a word from the user
-puts "What's the word?"
-word = gets.chomp
+prompt "What's the word?"
 
 VOWELS = ['a', 'e', 'i', 'o', 'u']
 
